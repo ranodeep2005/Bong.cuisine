@@ -1,0 +1,133 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ff704d;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffeb3b;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  
+  /* Cuisine Section */
+  .cuisine-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+  }
+  
+  .cuisine-section h2 {
+    font-size: 28px;
+    color: #ff704d;
+    margin-bottom: 10px;
+  }
+  
+  .image-card {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-card img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .image-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-card p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Video Section */
+  .video-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  video {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Button */
+  button {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    background-color: #ff704d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e65c33;
+  }
+  
