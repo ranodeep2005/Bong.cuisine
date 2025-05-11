@@ -130,4 +130,45 @@
   button:hover {
     background-color: #e65c33;
   }
-  
+  .cart-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 2px solid #ccc;
+}
+
+.image-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image-card button {
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  background-color: #007b5e;
+  color: white;
+  border: none;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.image-card button:hover {
+  background-color: #005f47;
+}
+#cart-items button {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#cart-items button:hover {
+  background-color: #a93226;
+}
