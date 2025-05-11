@@ -1,0 +1,296 @@
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Login & Signup Buttons */
+.auth-buttons {
+  margin-top: 20px;
+}
+
+.auth-buttons button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+.auth-buttons button:hover {
+  background-color: #c2185b;
+  transform: scale(1.1);
+}
+
+/* Animation Styles */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes zoomIn {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+/* Hero Section - Centered */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Text Animations */
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  animation: fadeInUp 1.5s forwards;
+}
+
+.hero p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  animation: fadeInUp 1.5s forwards;
+  animation-delay: 0.5s;
+}
+
+/* Button Animations */
+.hero button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  padding: 15px 40px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  animation: fadeInUp 1.5s forwards;
+  animation-delay: 1s;
+}
+
+.hero button:hover {
+  background-color: #c0392b;
+  transform: scale(1.1);
+}
+
+.hero button:focus {
+  outline: none;
+}
+
+/* Auth Buttons */
+.auth-buttons button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding: 12px 30px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-buttons button:hover {
+  background-color: #2980b9;
+}
+
+.auth-buttons button:focus {
+  outline: none;
+}
+
+/* Keyframe Animation for Fade-in and Up Effect */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Hero Section - Centered */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden; /* Prevent overflow of animated content */
+}
+
+.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Text Animations */
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  animation: fadeInUp 1.5s ease-out forwards, bounceIn 2s ease-in-out 0.5s;
+}
+
+.hero p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  animation: fadeInUp 1.5s ease-out forwards, slideIn 2s ease-in-out 1s;
+}
+
+/* Button Animations */
+.hero button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  padding: 15px 40px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  animation: fadeInUp 1.5s ease-out forwards, zoomIn 2s ease-out 1s;
+}
+
+.hero button:hover {
+  background-color: #c0392b;
+  transform: scale(1.1);
+}
+
+.hero button:focus {
+  outline: none;
+}
+
+/* Auth Buttons Animations */
+.auth-buttons button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding: 12px 30px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  animation: fadeInUp 1.5s ease-out forwards, slideIn 1.5s ease-in-out 0.5s;
+}
+
+.auth-buttons button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.auth-buttons button:focus {
+  outline: none;
+}
+
+/* Keyframe Animation for Fade-in and Up Effect */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Bounce In Animation for Heading */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Slide In Animation for Text and Buttons */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Zoom In Animation for Button */
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
