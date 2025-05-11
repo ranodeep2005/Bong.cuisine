@@ -130,4 +130,230 @@
   button:hover {
     background-color: #e65c33;
   }
-  
+    .cart-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 2px solid #ccc;
+}
+
+.image-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image-card button {
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  background-color: #007b5e;
+  color: white;
+  border: none;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.image-card button:hover {
+  background-color: #005f47;
+}
+#cart-items button {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#cart-items button:hover {
+  background-color: #a93226;
+}
+/* General Styles for Bengali Cuisine Page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #3e8e41;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Cuisine Section Styles */
+.cuisine-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cuisine-section h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.image-card {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-card img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-card p {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.image-card button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.image-card button:hover {
+  background-color: #45a049;
+}
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@400;600&display=swap');
+
+/* General Styles for Bengali Cuisine Page */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #3e8e41;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+/* Cuisine Section Styles */
+.cuisine-section {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cuisine-section h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  color: #3e8e41;
+}
+
+.image-card {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.image-card img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-card p {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.image-card button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.image-card button:hover {
+  background-color: #45a049;
+}
