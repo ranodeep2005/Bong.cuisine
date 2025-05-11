@@ -61,10 +61,62 @@ const menuItems = [
     price: "₹140.00",
     image: "https://shwetainthekitchen.com/wp-content/uploads/2023/03/mixed-vegetable-curry.jpg",
     video:"https://www.youtube.com/embed/Kizxsb0Vcdw?si=cJPknQ55cGBGsf3T" ,
+  },
+  {
+    name: "Aloo Posto",
+    description: "Aloo Posto is a dish made with potatoes cooked in a creamy poppy seed paste, flavored with mustard oil and green chilie.",
+    price : "₹80.00",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLEcCvT4xFSKrUW-uFhK8OORQx2rIWH_rhXA&s",
+    video:"https://www.youtube.com/embed/BI1v4Y8Td_M?si=_aacdSSXY8OxRdWT" ,
+  },
+  {
+    name: "Fish curry",
+    description:"Fish curry is a spicy, flavorful dish made by simmering fish in a rich, aromatic gravy of onions, tomatoes, and traditional spices.",
+    price : "₹280.00",
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsbpWMuml3mYaKnSrTMN1InAijib6XhEia3w&s",
+    video:"https://www.youtube.com/embed/70TKVIfv4zc?si=lkvmcYzngibFE_ZP" ,
+  },  {
+    name: "Crab curry",
+    description:"Crab is a delicious, tender-shelled seafood known for its sweet, often enjoyed steamed, curried, or stir-fried in various cuisines",
+    price : "₹380.00",
+    image:"https://www.seriouseats.com/thmb/qSGnrRY6RTXCmTaLfdxHDZP6lF4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__02__20130224-242112-singapore-chili-crab-edit-e02be72e16974f5da6fef41ec4ca7ea4.jpg",
+    video:"https://www.youtube.com/embed/taZCLVCLuh8?si=t5mNP9ozRYwd0sHr"  ,
+  },
+  {
+    name: "Chowmin",
+    description:"Chowmein is stir-fried noodle dish made with vegetables, sauces, and optionally meat or eggs, slightly spicy flavor and chewy texture.",
+    price : "₹100.00",
+    image:"https://thebigmansworld.com/wp-content/uploads/2023/02/chicken-chow-mein-recipe.jpg",
+    video:"https://www.youtube.com/embed/VvdY2guPSiM?si=CKCCYkDjaoRNvFfF"  ,
   }
+   
 
 
 ];
+menuItems.push(
+  {
+    name: "Beguni",
+    description: "Beguni is a Bengali snack made with thinly sliced eggplant dipped in gram flour batter and deep-fried till crispy.",
+    price: "₹50.00",
+    image: "https://www.scratchingcanvas.com/wp-content/uploads/2018/02/Beguni.2.jpg",
+    video: "https://www.youtube.com/embed/4W9JPLkiwS4?si=jqDajOr_JWgGv18r"
+  },
+  {
+    name: "Patishapta",
+    description: "Patishapta is a Bengali dessert crepe stuffed with a sweet coconut and jaggery filling, enjoyed especially during winter.",
+    price: "₹80.00",
+    image: "https://hungryforever.net/wp-content/uploads/2016/10/Featured-image-patishapta-600x315.jpg",
+    video: "https://www.youtube.com/embed/b8hAhJW4594?si=3Fe_bEu4nIwC0dsK"
+  },
+  {
+    name: "Ghugni Chaat",
+    description: "Ghugni is a spicy curry made with yellow peas, topped with onions, chilies, and tangy chutneys—served as a street food delight.",
+    price: "₹60.00",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeosfES1ns3Sjvt7gDuklDqst4guOdQYcqXw&s",
+    video: "https://www.youtube.com/embed/02wSHyN4Nkk?si=r3daLIo7uzePo6Ri"
+  }
+);
+
 
 const menuContainer = document.getElementById('menu-items');
 
@@ -97,4 +149,6 @@ function closeModal() {
 function openVideo(videoUrl) {
   window.open(videoUrl, '_blank');
 }
-
+document.getElementById('order-button').addEventListener('click', function () {
+  document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });
+});
