@@ -130,4 +130,201 @@
   button:hover {
     background-color: #e65c33;
   }
-  
+  cart-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 2px solid #ccc;
+}
+
+.image-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image-card button {
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  background-color: #007b5e;
+  color: white;
+  border: none;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.image-card button:hover {
+  background-color: #005f47;
+}
+#cart-items button {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#cart-items button:hover {
+  background-color: #a93226;
+}
+/* Apply a fun font for the body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #ff6f61;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff6f61;
+}
+
+/* Style for the cuisine sections */
+.cuisine-section {
+  margin: 40px 10%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.cuisine-section h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-card {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.image-card p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.price {
+  font-weight: bold;
+  color: #ff6f61;
+  font-size: 1.1em;
+}
+
+button {
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e05c4e;
+}
+
+.image-card:hover {
+  transform: scale(1.05);
+}
+
+/* Cart Section */
+#cart {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 10%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+#cart-items li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+#cart-total {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff6f61;
+}
+
+/* Video Section */
+.video-section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 10%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.video-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+video {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Add some fun effects */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+button {
+  animation: bounce 1s infinite;
+}
