@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Italian Cuisine</title>
-  <link rel="stylesheet" href="italian.css">
+  <link rel="stylesheet" href="italian.css" />
 </head>
 <body>
   <header>
@@ -22,110 +22,168 @@
   <!-- Vegetarian Section -->
   <section id="veg" class="cuisine-section">
     <h2>Vegetarian Dishes</h2>
+
     <div class="image-card">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM-_pw0mgNehJH7kMo0DO_kt-jKVIpCBni_A&s" height="50" alt="Margherita Pizza">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM-_pw0mgNehJH7kMo0DO_kt-jKVIpCBni_A&s" alt="Margherita Pizza">
       <p>Margherita Pizza</p>
+      <p class="price">$8.00</p>
+      <button onclick="addToCart('Margherita Pizza', 8.00)">Add to Cart</button>
     </div>
+
     <div class="image-card">
-      <img src="https://www.recipetineats.com/tachyon/2021/05/Eggplant-Parmigiana_1-SQ.jpg" height="50" alt="Eggplant Parmesan">
+      <img src="https://www.recipetineats.com/tachyon/2021/05/Eggplant-Parmigiana_1-SQ.jpg" alt="Eggplant Parmesan">
       <p>Eggplant Parmesan</p>
+      <p class="price">$9.50</p>
+      <button onclick="addToCart('Eggplant Parmesan', 9.50)">Add to Cart</button>
     </div>
+
     <div class="image-card">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVdx4R-YQGSFIAAvFneKW4iitcE2I2eHkgfw&s" height="50" alt="Caprese Salad">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVdx4R-YQGSFIAAvFneKW4iitcE2I2eHkgfw&s" alt="Caprese Salad">
       <p>Caprese Salad</p>
+      <p class="price">$7.00</p>
+      <button onclick="addToCart('Caprese Salad', 7.00)">Add to Cart</button>
     </div>
+
     <div class="image-card">
-      <img src="https://cdn.loveandlemons.com/wp-content/uploads/2023/11/spinach-salad.jpg" height="50" alt="Spinach Lasagna">
+      <img src="https://cdn.loveandlemons.com/wp-content/uploads/2023/11/spinach-salad.jpg" alt="Spinach Lasagna">
       <p>Spinach Lasagna</p>
+      <p class="price">$10.00</p>
+      <button onclick="addToCart('Spinach Lasagna', 10.00)">Add to Cart</button>
     </div>
+
     <div class="image-card">
-      <img src="https://cdn.loveandlemons.com/wp-content/uploads/2021/11/minestrone-soup-500x500.jpg" height="50" alt="Minestrone Soup">
+      <img src="https://cdn.loveandlemons.com/wp-content/uploads/2021/11/minestrone-soup-500x500.jpg" alt="Minestrone Soup">
       <p>Minestrone Soup</p>
+      <p class="price">$6.50</p>
+      <button onclick="addToCart('Minestrone Soup', 6.50)">Add to Cart</button>
     </div>
   </section>
 
   <!-- Non-Vegetarian Section -->
   <section id="nonveg" class="cuisine-section">
     <h2>Non-Vegetarian Dishes</h2>
+
     <div class="image-card">
-      <img src="https://assets.bonappetit.com/photos/5ea8f0df16738800085ad5d2/1:1/w_2560%2Cc_limit/Chicken-Parmesean-Recipe-Lede.jpg" height="50" alt="Chicken Parmesan">
+      <img src="https://assets.bonappetit.com/photos/5ea8f0df16738800085ad5d2/1:1/w_2560%2Cc_limit/Chicken-Parmesean-Recipe-Lede.jpg" alt="Chicken Parmesan">
       <p>Chicken Parmesan</p>
+      <p class="price">$11.00</p>
+      <button onclick="addToCart('Chicken Parmesan', 11.00)">Add to Cart</button>
     </div>
+
     <div class="image-card">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLWB_-GgKUgj2R23urAvMAjsnI3C1UIbwiag&s" height="50" alt="Spaghetti with Meatballs">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLWB_-GgKUgj2R23urAvMAjsnI3C1UIbwiag&s" alt="Spaghetti with Meatballs">
       <p>Spaghetti with Meatballs</p>
+      <p class="price">$12.00</p>
+      <button onclick="addToCart('Spaghetti with Meatballs', 12.00)">Add to Cart</button>
     </div>
+
     <div class="image-card">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5EuVYEm22v_-iy2vFQ-4niAT7Dk4uzs_CYA&s" height="50" alt="Chicken Alfredo">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5EuVYEm22v_-iy2vFQ-4niAT7Dk4uzs_CYA&s" alt="Chicken Alfredo">
       <p>Chicken Alfredo</p>
+      <p class="price">$10.50</p>
+      <button onclick="addToCart('Chicken Alfredo', 10.50)">Add to Cart</button>
     </div>
+
     <div class="image-card">
-      <img src="https://www.daringgourmet.com/wp-content/uploads/2019/09/Homemade-Sausage-1-square-edit-3.jpg" height="50" alt="Italian Sausage">
+      <img src="https://www.daringgourmet.com/wp-content/uploads/2019/09/Homemade-Sausage-1-square-edit-3.jpg" alt="Italian Sausage">
       <p>Italian Sausage</p>
+      <p class="price">$9.00</p>
+      <button onclick="addToCart('Italian Sausage', 9.00)">Add to Cart</button>
     </div>
+
     <div class="image-card">
-      <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/1/31/0/italiancooking_ossobucco.jpg.rend.hgtvcom.1280.1280.suffix/1431766579357.webp" height="50" alt="Osso Buco">
+      <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2008/1/31/0/italiancooking_ossobucco.jpg.rend.hgtvcom.1280.1280.suffix/1431766579357.webp" alt="Osso Buco">
       <p>Osso Buco</p>
+      <p class="price">$14.00</p>
+      <button onclick="addToCart('Osso Buco', 14.00)">Add to Cart</button>
     </div>
   </section>
 
   <!-- Snacks Section -->
   <section id="snacks" class="cuisine-section">
     <h2>Snacks</h2>
+
     <div class="image-card">
-      <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2020-09-How-to-Make-the-Best-Ever-Focaccia-Pizza%2FReshoot-How-to-make-the-best-ever-focaccia%2F2020_howto_focacciapizza_lead2_490_v2" alt="Focaccia">
+      <img src="https://theplantbasedschool.com/wp-content/uploads/2024/04/Focaccia-with-rosemary.jpg" alt="Focaccia">
       <p>Focaccia</p>
+      <p class="price">$5.00</p>
+      <button onclick="addToCart('Focaccia', 5.00)">Add to Cart</button>
     </div>
+
     <div class="image-card">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlAuQAxheNKs7O0e7AR0skoc1vjAZ-TSk9mA&s" alt="Supplì">
-      <p>Supplì (Fried Rice Balls)</p>
+      <p>Supplì </p>
+      <p class="price">$4.50</p>
+      <button onclick="addToCart('Supplì', 4.50)">Add to Cart</button>
     </div>
+
     <div class="image-card">
       <img src="https://www.simplyorganic.com/media/wysiwyg/tmp/simply-oragnic-Roasted-Tomato-Bruschetta-1080x1080-thumbnail.jpg" alt="Bruschetta">
       <p>Bruschetta</p>
+      <p class="price">$4.00</p>
+      <button onclick="addToCart('Bruschetta', 4.00)">Add to Cart</button>
     </div>
+
     <div class="image-card">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1Ekt0du38W4O4Y6h0Iz1Z3h8SQm6HV5HuA&s" alt="Arancini">
       <p>Arancini</p>
+      <p class="price">$5.00</p>
+      <button onclick="addToCart('Arancini', 5.00)">Add to Cart</button>
     </div>
+
     <div class="image-card">
       <img src="https://www.sipandfeast.com/wp-content/uploads/2023/03/taralli-recipe-snippet.jpg" alt="Taralli">
       <p>Taralli</p>
+      <p class="price">$3.00</p>
+      <button onclick="addToCart('Taralli', 3.00)">Add to Cart</button>
     </div>
   </section>
 
   <!-- Desserts Section -->
   <section id="desserts" class="cuisine-section">
     <h2>Desserts</h2>
+
     <div class="image-card">
       <img src="https://simshomekitchen.com/wp-content/uploads/2023/08/Tiramisu-birthday-cake-recipe.jpg" alt="Tiramisu">
       <p>Tiramisu</p>
+      <p class="price">$6.00</p>
+      <button onclick="addToCart('Tiramisu', 6.00)">Add to Cart</button>
     </div>
+
     <div class="image-card">
-      <img src="https://assets.epicurious.com/photos/62d6c513077a952f4a8c338c/1:1/w_2848,h_2848,c_limit/PannaCotta_RECIPE_04142022_9822_final.jpg" alt="Panna Cotta">
+      <img src="https://fullofplants.com/wp-content/uploads/2023/01/creamy-vegan-panna-cotta-dairy-free-fresh-and-light-dessert-thumb-12.jpg" alt="Panna Cotta">
       <p>Panna Cotta</p>
+      <p class="price">$5.50</p>
+      <button onclick="addToCart('Panna Cotta', 5.50)">Add to Cart</button>
     </div>
+
     <div class="image-card">
       <img src="https://www.mycakeschool.com/images/2022/05/Limoncello-Cake-Recipe-photo.jpg" alt="Limoncello Cake">
       <p>Limoncello Cake</p>
+      <p class="price">$6.50</p>
+      <button onclick="addToCart('Limoncello Cake', 6.50)">Add to Cart</button>
     </div>
+
     <div class="image-card">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSosf1IHijoYUT7UIZ8m6-GZyBgWlkQXGh8LA&s" alt="Cannoli">
       <p>Cannoli</p>
+      <p class="price">$4.50</p>
+      <button onclick="addToCart('Cannoli', 4.50)">Add to Cart</button>
     </div>
+
     <div class="image-card">
       <img src="https://static01.nyt.com/images/2021/08/15/magazine/affogato/affogato-mediumSquareAt3X-v2.jpg" alt="Affogato">
       <p>Affogato</p>
+      <p class="price">$4.00</p>
+      <button onclick="addToCart('Affogato', 4.00)">Add to Cart</button>
     </div>
   </section>
 
-  <!-- Video Section -->
-  <section class="video-section">
-    <h2>Watch Italian Cooking</h2>
-    <video controls>
-      <source src="https://www.youtube.com/embed/bcXw5k0SmDc?si=HMpbSz73f8GbSgar" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+  <!-- Cart Section -->
+  <section id="cart" class="cart-section">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p><strong>Total:</strong> $<span id="cart-total">0.00</span></p>
   </section>
 
   <script src="italian.js"></script>
